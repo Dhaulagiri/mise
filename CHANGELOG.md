@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026.9.5](https://github.com/jdx/mise/compare/v2026.9.4..v2026.9.5) - 2026-09-09
+
+### 🚀 Features
+
+- **(bootstrap)** support current-host macOS defaults by @azohra in [#12983](https://github.com/jdx/mise/pull/12983)
+- **(bootstrap)** extend friendly macos preferences by @jdx in [#13032](https://github.com/jdx/mise/pull/13032)
+- **(lock)** trial complete lockfile generation by @jdx in [#13031](https://github.com/jdx/mise/pull/13031)
+
+### 🐛 Bug Fixes
+
+- **(install)** summarize interactive progress without duplicate rows by @jdx in [#13030](https://github.com/jdx/mise/pull/13030)
+- **(self-update)** select the correct armv7 release archive by @jdx in [#13023](https://github.com/jdx/mise/pull/13023)
+- **(self-update)** correct npm update guidance and allow silencing warnings by @jdx in [#13028](https://github.com/jdx/mise/pull/13028)
+
+### Ci
+
+- use the active mise binary in the nix docker test by @jdx in [#13026](https://github.com/jdx/mise/pull/13026)
+
 ## [2026.9.4](https://github.com/jdx/mise/compare/v2026.9.3..v2026.9.4) - 2026-09-09
 
 ### 🚀 Features
